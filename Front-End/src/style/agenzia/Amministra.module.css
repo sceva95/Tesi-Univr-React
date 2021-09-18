@@ -1,0 +1,48 @@
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.modal {
+  margin-left: 40vw;
+  margin-top: 40vh;
+  width: 300px;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #777;
+  border-radius: 5px;
+}
+
+.tableView {
+  width: 30vw;
+  height: 50vh;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.table {
+  height: 400px;
+  width: 100%;
+}
+
+.bottone {
+  position: absolute;
+  right: -25vw;
+  bottom: 10vh;
+}
+
+.tableViewStato {
+  width: 50vw;
+  height: 50vh;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

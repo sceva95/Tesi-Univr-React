@@ -1,0 +1,9 @@
+.container {
+  padding: 30px;
+}
+
+.richieste {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

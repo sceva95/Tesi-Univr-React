@@ -1,0 +1,31 @@
+.bg {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url("../img/3860709.jpg");
+  background-color: rgba(2, 143, 2, 0.418);
+
+  height: 100%;
+  width: 100%;
+  opacity: 0.1;
+}
+
+.container {
+  display: flex;
+  margin-top: 5px;
+  min-height: 100vh;
+}
+
+.sidemenu {
+  width: 10vw;
+  min-width: 200px;
+  background-color: rgba(99, 129, 108, 0.418);
+}
+
+.maincomponent {
+  margin-left: 25px;
+  width: 85vw;
+}

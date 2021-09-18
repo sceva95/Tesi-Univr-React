@@ -1,0 +1,56 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  font-size: small;
+  color: rgb(105, 105, 252);
+}
+
+.container {
+  width: 60vw;
+  background-color: rgba(240, 240, 240, 0.26);
+  margin-bottom: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.container .titolo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .ragionesociale {
+  font-size: large;
+  padding: 5px;
+}
+
+.container .indirizzo {
+  padding: 10px;
+}
+
+.container .descrizioneText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.container .descrizione {
+  border: 1px solid rgb(88, 3, 245);
+  min-width: 40vw;
+  padding: 10px;
+}
+
+.container .dateVarie {
+  margin-top: 10px;
+  display: flex;
+  min-width: 60vw;
+  justify-content: space-between;
+}

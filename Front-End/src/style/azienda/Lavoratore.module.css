@@ -1,0 +1,65 @@
+.container {
+  background-color: rgb(245, 245, 245);
+
+  padding: 10px;
+  display: flex;
+  height: 50px;
+
+  align-items: flex-start;
+
+  border: 1px solid rgba(0, 0, 0, 0.089);
+  margin-bottom: 5px;
+}
+
+.container .score {
+  background: red;
+  padding: 10px;
+
+  border-radius: 50%;
+  color: white;
+  font-size: large;
+  width: 10px;
+  height: 10px;
+  position: relative;
+}
+
+.container .score h5 {
+  position: absolute;
+  top: 3px;
+  left: 7px;
+}
+
+.container .dati {
+  display: flex;
+  flex-direction: column;
+  padding: 2px;
+  margin-left: 2px;
+  border-left: 1px solid #777;
+}
+
+.proponi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -8px;
+}
+
+.user {
+  position: relative;
+  top: -10px;
+  left: -4px;
+}
+
+.bottoni {
+  display: flex;
+  flex-direction: column;
+  padding: 1px;
+  margin-left: 2px;
+  border-left: 1px solid #777;
+}
+
+.bottoni button {
+  width: 30px;
+  height: 30px;
+}

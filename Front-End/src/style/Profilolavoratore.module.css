@@ -1,0 +1,60 @@
+.main {
+  width: 40vw;
+  height: 70vh;
+  background-color: rgb(255, 255, 255);
+  margin-top: 10vh;
+  margin-left: 30vw;
+  overflow-y: auto;
+}
+
+.container {
+  margin-top: 60px;
+  padding: 20px;
+
+  font-size: small;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.titolo {
+  background-color: rgba(99, 129, 108, 0.9);
+  color: white;
+  width: 40vw;
+  height: 60px;
+
+  border-radius: 1px;
+  position: fixed;
+  font-family: "Kreon", serif;
+}
+
+.container .box {
+  border: 1px solid rgba(129, 129, 129, 0.301);
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 1%;
+  margin-bottom: 10px;
+}
+
+.titolo .bottone {
+  position: fixed;
+  left: 66vw;
+  top: 11vh;
+}
+
+.icona {
+  width: 150px;
+}
+
+.titolo .bottone:hover {
+  background: red;
+  color: white;
+}
+
+.footer {
+  background-color: rgba(56, 75, 62, 0.9);
+  position: fixed;
+  height: 25px;
+  width: 40vw;
+  top: 77.5vh;
+}
