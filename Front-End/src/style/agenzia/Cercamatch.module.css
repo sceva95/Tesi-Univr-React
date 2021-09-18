@@ -1,0 +1,83 @@
+.main {
+  width: 40vw;
+  height: 70vh;
+  background-color: rgb(255, 255, 255);
+  margin-top: 10vh;
+  margin-left: 30vw;
+  overflow-y: auto;
+}
+
+.container {
+  margin-top: 60px;
+  padding: 20px;
+
+  font-size: small;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.titolo {
+  background-color: rgba(99, 129, 108, 0.9);
+  color: white;
+  width: 40vw;
+  height: 60px;
+  z-index: 1110;
+
+  border-radius: 1px;
+  position: fixed;
+  font-family: "Kreon", serif;
+}
+
+.titolo .bottone {
+  position: fixed;
+  left: 66vw;
+  top: 11vh;
+}
+
+.titolo .bottone:hover {
+  background: red;
+  color: white;
+}
+
+.container .box {
+  border: 1px solid rgba(129, 129, 129, 0.301);
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 1%;
+  margin-bottom: 10px;
+}
+
+.lavoratori {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.container button {
+  margin-top: 20px;
+}
+
+.array {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.array p {
+  border: 1px solid lightblue;
+  background-color: lightblue;
+  border-radius: 10%;
+  padding: 3px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+.bottoni {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.bottoni button {
+  width: 50%;
+}

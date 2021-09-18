@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: #777;
+  margin-top: 5px;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
